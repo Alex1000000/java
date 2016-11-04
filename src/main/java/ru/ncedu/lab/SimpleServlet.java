@@ -61,7 +61,7 @@ public class SimpleServlet extends HttpServlet {
         response.setStatus(200);//Status code (200) indicating the request succeeded normally
 
 
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("resourses/spring-classificator_20.xml");
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-classificator_20.xml");
         Classificator p1 = (Classificator) applicationContext.getBean("firsClassificator");
         Classificator p2 = (Classificator) applicationContext.getBean("secondClassificator");
         Classificator p3 = (Classificator) applicationContext.getBean("thirdClassificator");
