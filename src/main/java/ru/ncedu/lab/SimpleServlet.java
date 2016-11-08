@@ -88,10 +88,12 @@ public class SimpleServlet extends HttpServlet {
             String[] values = request.getParameterValues(name);
 
             for (int i=0; i<values.length; i++) {
-                out.println(" " + values[i]);
+                out.println(" " + values[i]+"(name="+name+")");
             }
 
-            out.println(p1.classify(number)+p2.classify(number)+p3.classify(number));
+            ///number=values[0]
+            number=Integer.parseInt(values[0]);
+            out.println("NUMBER="+values[0]+"  "+p1.classify(number)+"  "+p2.classify(number)+"   "+p3.classify(number));
 
         }
         out.close();
