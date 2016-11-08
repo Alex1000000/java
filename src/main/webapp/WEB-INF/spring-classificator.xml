@@ -19,6 +19,7 @@ http://www.springframework.org/schema/beans ">
         class="ru.ncedu.lab.IsDividedThree"
     </bean>
 
+
 </beans>
 
 

@@ -6,7 +6,7 @@ import java.util.*;
  */
 public class IsMyFavorite implements Classificator {
     public String classify(int number) {
-        int count[] = {34, 22, 10, 60, 30, 22};
+        int count[] = {42, 3, 9, 7, 14, 94};
         Set<Integer> set = new HashSet<Integer>();
         for (int i = 0; i < 5; i++) {
             set.add(count[i]);
