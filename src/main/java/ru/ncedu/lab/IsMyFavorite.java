@@ -1,4 +1,5 @@
-package ru.ncedu.lab;
+package main.java.ru.ncedu.lab;
+
 import java.util.*;
 
 /**

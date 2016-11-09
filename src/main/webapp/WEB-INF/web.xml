@@ -11,7 +11,7 @@
   <!-- Classic Servlet -->
   <servlet>
     <servlet-name>simpleServlet</servlet-name>
-    <servlet-class>ru.ncedu.lab.SimpleServlet</servlet-class>
+    <servlet-class>main.java.ru.ncedu.lab.SimpleServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>

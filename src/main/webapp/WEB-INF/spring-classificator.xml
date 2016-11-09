@@ -8,15 +8,15 @@ http://www.springframework.org/schema/beans ">
 
     <bean>
         id="firsClassificator"
-        class="ru.ncedu.lab.IsMyFavorite"
+        class="IsMyFavorite"
     </bean>
     <bean>
         id="secondClassificator"
-        class="ru.ncedu.lab.IsOdd"
+        class="IsOdd"
     </bean>
     <bean>
         id="thirdClassificator"
-        class="ru.ncedu.lab.IsDividedThree"
+        class="IsDividedThree"
     </bean>
 
 

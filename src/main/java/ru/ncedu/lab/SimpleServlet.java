@@ -1,4 +1,4 @@
-package ru.ncedu.lab;
+package main.java.ru.ncedu.lab;
 
 /**
  * Created by Саша on 04.11.2016.
@@ -10,7 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Collection;
 import java.util.Enumeration;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -69,10 +68,14 @@ public class SimpleServlet extends HttpServlet {
             for (int i=0; i<values.length; i++) {
                 out.println(" " + values[i]+"(name="+name+")");
             }
-
-            ///number=values[0]
-            number=Integer.parseInt(values[0]);
-            out.println("NUMBER="+p.classify(number));
+            try {
+                ///number=values[0]
+                number = Integer.parseInt(values[0]);
+                out.println("NUMBER=" + p.classify(number));
+            }
+            catch (Exception ex) {
+                out.println("Incorrect input");
+            }
 
         }
         out.close();

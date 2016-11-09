@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="servlet_try">
+    <CLASSES>
+      <root url="file://C:/servlet_try" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://C:/servlet_try" recursive="false" />
+  </library>
+</component>

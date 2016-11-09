@@ -1,4 +1,4 @@
-package ru.ncedu.lab;;
+package main.java.ru.ncedu.lab;;
 
 /**
  * Created by Саша on 03.11.2016.

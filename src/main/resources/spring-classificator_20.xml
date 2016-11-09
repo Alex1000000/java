@@ -6,13 +6,13 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean name="firsClassificator" class="ru.ncedu.lab.IsMyFavorite" />
+    <bean name="firsClassificator" class="main.java.ru.ncedu.lab.IsMyFavorite" />
 
-    <bean name="secondClassificator" class="ru.ncedu.lab.IsOdd" />
+    <bean name="secondClassificator" class="main.java.ru.ncedu.lab.IsOdd" />
 
-    <bean name="thirdClassificator" class="ru.ncedu.lab.IsDividedThree"/>
+    <bean name="thirdClassificator" class="main.java.ru.ncedu.lab.IsDividedThree"/>
 
-    <bean name="AllClassify" class="ru.ncedu.lab.AllTheClassificators">
+    <bean name="AllClassify" class="main.java.ru.ncedu.lab.AllTheClassificators">
         <property name="classificators">
             <list>
                 <ref bean="firsClassificator"/>

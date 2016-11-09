@@ -1,16 +1,16 @@
-package ru.ncedu.lab;
+package main.java.ru.ncedu.lab;
 
-import java.util.Collection;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by Саша on 04.11.2016.
  */
-public class AllTheClassificators implements Classificator{
+public class AllTheClassificators implements Classificator {
 
-    private List<Classificator> classificators;
+    private ArrayList<Classificator> classificators;
 
-    public void setClassificators(List<Classificator> classificators){
+    public void setClassificators(ArrayList<Classificator> classificators){
         this.classificators=classificators;
     }
 
